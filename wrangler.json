@@ -1,5 +1,5 @@
 {
-  "name": "next-template-cf",
+  "name": "my-template",
   "main": ".open-next/worker.js",
   "compatibility_date": "2025-06-17",
   "compatibility_flags": ["nodejs_compat"],
