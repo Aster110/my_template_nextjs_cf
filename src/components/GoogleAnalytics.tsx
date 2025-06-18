@@ -1,8 +1,12 @@
 'use client';
 
 import Script from 'next/script';
+import { SITE_CONFIG } from '@/lib/config';
 
 export default function GoogleAnalytics() {
+  // 如果分析功能未启用，则不渲染任何内容
+  if (!SITE_CONFIG.enableAnalytics) return null;
+
   return (
     <>
       <Script
